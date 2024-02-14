@@ -1,21 +1,13 @@
 package main
 
-// import (
-// 	"testing"
-
-// 	"github.com/aws/aws-cdk-go/awscdk/v2"
-// 	"github.com/aws/aws-cdk-go/awscdk/v2/assertions"
-// 	"github.com/aws/jsii-runtime-go"
-// )
-
 // example tests. To run these tests, uncomment this file along with the
-// example resource in ckd_test.go
-// func TestCkdStack(t *testing.T) {
+// example resource in go-lambda-cdk_test.go
+// func TestGoLambdaCdkStack(t *testing.T) {
 // 	// GIVEN
 // 	app := awscdk.NewApp(nil)
 
 // 	// WHEN
-// 	stack := NewCkdStack(app, "MyStack", nil)
+// 	stack, err := NewConnpassBotV2(app, "MyStack", nil)
 
 // 	// THEN
 // 	template := assertions.Template_FromStack(stack, nil)
